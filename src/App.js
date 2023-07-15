@@ -3,7 +3,7 @@ import './App.css';
 import { MainLayout } from "./styles/layout";
 import bg from "./image/bg.png"
 import Orb from "./components/orb/orb";
-
+import Navigation from "./components/nav/navigation";
 
 
 
@@ -19,7 +19,7 @@ function App() {
       <Orb />
       
     <MainLayout>
-    
+       <Navigation />
     </MainLayout>
 
     </AppStyled>
